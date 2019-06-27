@@ -1,5 +1,5 @@
-from loss_function import *
-from optimizer import *
+from .loss_function import *
+from .optimizer import *
 import csv
 from collections import defaultdict
 

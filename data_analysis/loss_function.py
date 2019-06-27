@@ -1,6 +1,6 @@
 import numpy as np
 from math import log
-from optimizer import *
+from .optimizer import *
 from collections import defaultdict
 
 
@@ -90,7 +90,7 @@ class CrossEntropy(LossFunction):
         for i in range(self.k):
             self.beta_set[i] = np.random.randn(np.shape(self.feature)[1] + 1)
 
-    @loss.abstractmethod
+    #@loss.abstractmethod
     def loss(self, y, t):
         # x_i : unprepared probability
         # y_i ; one-hot encoded probability.

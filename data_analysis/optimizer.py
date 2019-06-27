@@ -69,6 +69,7 @@ class Momentum(SGD):
         self.v = self.momentum * self.v - self.lr * grads
         params += self.v
 
+    #@SGD.change_settings.abstractmethod
     def change_settings(self, lr, mini_batch_size, iterations, momentum):
         super().change_settings(lr, mini_batch_size, iterations)
         self.momentum = momentum
