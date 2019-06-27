@@ -72,7 +72,7 @@ class LogLikelihood(LossFunction):
         for x_i, y_i in zip(self.feature, self.target):
             if (self.sigmoid(x_i, beta) > 0.5) & (y_i == 1): count += 1
             if (self.sigmoid(x_i, beta) < 0.5) & (y_i == 0): count += 1
-        print(count)
+        print(count / np.shape(self.feature)[0] * 100)
         return count / np.shape(self.feature)[0] * 100
 
 
