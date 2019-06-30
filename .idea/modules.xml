@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Codeit/.idea/Codeit.iml" filepath="$PROJECT_DIR$/../Codeit/.idea/Codeit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Codeit_lecture_note/.idea/Codeit_lecture_note.iml" filepath="$PROJECT_DIR$/../Codeit_lecture_note/.idea/Codeit_lecture_note.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/deep_learning_module.iml" filepath="$PROJECT_DIR$/.idea/deep_learning_module.iml" />
     </modules>
   </component>
